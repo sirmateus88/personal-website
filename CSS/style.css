@@ -274,6 +274,7 @@ header a {
   }
 
   #home-image-mobile img{
+    display: block;
     position: absolute;
     top: 0px;
     left: 0px;
