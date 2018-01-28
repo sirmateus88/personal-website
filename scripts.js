@@ -1,5 +1,7 @@
 
+const viewWidth = screen.width;
 const image = document.getElementById("home-image").children[0];
+
 
 
 window.addEventListener('scroll', function() {
@@ -8,3 +10,4 @@ window.addEventListener('scroll', function() {
     image.style.transform = `translateY(${scrollPosition / 2}px)`;
 
 });
+
